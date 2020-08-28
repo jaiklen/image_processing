@@ -1,5 +1,4 @@
 import cv2
-import sys
 def pencil(img):
     image = cv2.imread(img)
     grayimage = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
